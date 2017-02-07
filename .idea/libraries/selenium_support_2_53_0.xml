@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="selenium-support-2.53.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.0/3706aa8a696d1b7938365a41ee7ca46309a0b2d/selenium-support-2.53.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/2.53.0/cf9e33859401fb93d29181602b4811f2b7cc733d/selenium-support-2.53.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
