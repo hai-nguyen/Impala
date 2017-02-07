@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+buildscript {
+  repositories {
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    classpath 'com.github.hamsterksu:android-appversion-gradle-plugin:1.+'
+  }
+}
+repositories {
+  jcenter()
+  maven { url "https://jitpack.io" }
+  maven {
+    url 'https://plugins.gradle.org/m2/'
+  }
+  maven { url "https://clojars.org/repo/" }
+}
+
+def AppVersionName = "ImpalaDemo"
+def AppVersionCode = 1
+def ArtifactPackageName = "hainguyen.impala"
+
+android {
+  compileSdkVersion 23
+  buildToolsVersion "23.0.2"
+
+  defaultConfig {
+    applicationId "hainguyen.impala"
+    minSdkVersion 15
+    targetSdkVersion 23
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      buildConfigField "String", "APP_VERSION_NAME", "\"$AppVersionName\""
+      buildConfigField "String", "APP_NAME", "\"${project.name}\""
+    }
+    debug {
+      buildConfigField "String", "APP_VERSION_NAME", "\"$AppVersionName\""
+      buildConfigField "String", "APP_NAME", "\"${project.name}\""
+    }
+  }
+
+  productFlavors {
+    dev {
+      versionName AppVersionName
+      versionCode AppVersionCode
+      applicationId ArtifactPackageName
+    }
+    prod {
+      versionName AppVersionName
+      versionCode AppVersionCode
+      applicationId ArtifactPackageName
+    }
+    automation {
+      versionName AppVersionName
+      versionCode AppVersionCode
+      applicationId ArtifactPackageName
+    }
+  }
+}
+
+//Configures the classpath and the source and resource directories
+//of the automationTest task.
+
+sourceSets {
+  test {
+    java {
+      srcDirs = ['src/test/java',
+                 'src/main/java']
+    }
+    resources.srcDir 'src/test/resources'
+  }
+}
+
+dependencies {
+  // Dependency Injection
+  compile 'com.google.dagger:dagger:2.0.1'
+  apt 'com.google.dagger:dagger-compiler:2.0.1'
+  provided 'org.glassfish:javax.annotation:10.0-b28'
+  apt 'com.jakewharton:butterknife-compiler:8.0.1'
+  compile 'com.jakewharton:butterknife:8.0.1'
+
+  //RxJava
+  compile 'io.reactivex:rxjava:1.1.5'
+  compile 'io.reactivex:rxandroid:1.2.0'
+
+  //AutoValue
+  compile 'com.google.auto.value:auto-value:1.2'
+  apt "com.google.auto.value:auto-value:1.2"
+
+  //Google
+  compile 'com.android.support:appcompat-v7:23.3.0'
+  compile 'com.google.code.gson:gson:2.8.0'
+  compile 'com.android.support:design:23.3.0'
+
+  //Network
+  compile 'com.squareup.retrofit2:retrofit:2.0.2'
+  compile 'com.squareup.okhttp3:okhttp:3.2.0'
+  compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+  compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+  compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+  apt 'com.ryanharter.auto.value:auto-value-gson:0.4.6'
+  provided 'com.ryanharter.auto.value:auto-value-gson:0.4.6'
+
+  // Log Helper
+  compile 'com.jakewharton.timber:timber:2.7.1'
+
+  // Unit Test
+  testCompile 'junit:junit:4.12'
+  testCompile 'org.mockito:mockito-all:1.10.19'
+  testCompile 'org.powermock:powermock-module-junit4:1.6.2'
+  testCompile 'org.powermock:powermock-api-mockito:1.6.2'
+}
+//Ensure that the HTML reports of unit and automation tests are written to different directories.
+tasks.withType(Test) {
+  reports.html.destination = file("${reporting.baseDir}/${name}")
+}

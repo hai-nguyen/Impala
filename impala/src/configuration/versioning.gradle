@@ -1,0 +1,81 @@
+import java.text.SimpleDateFormat;
+
+// Export methods so that it can be used in build.gradle
+ext {
+    getCurrentVersion = this.&getCurrentVersion
+    getCurrentVersionCode = this.&getCurrentVersionCode
+    getReleaseVersionName = this.&getReleaseVersionName
+    getDevVersionName = this.&getDevVersionName
+    getDevVersionCode = this.&getDevVersionCode
+    getReleaseVersionCode = this.&getReleaseVersionCode
+    getArtifactName = this.&getArtifactName
+    getArtifactPackageName = this.&getArtifactPackageName
+
+}
+
+Properties properties = new Properties()
+File propertiesFile = new File('gradle.properties')
+propertiesFile.withInputStream {
+    properties.load(it)
+}
+
+def getArtifactName() {
+    return properties.artifactname
+}
+
+def getArtifactPackageName()
+{
+    return properties.artifactpackagename
+}
+
+def getCurrentVersion() {
+    return properties.version
+}
+
+def getCurrentVersionCode() {
+    def version = getCurrentVersion()
+
+    def versionParts = version.findAll( /\d+/ )*.toInteger()
+    def versionCode = versionParts[2]
+    println sprintf("Returning CurrentVersionCode %d", versionCode)
+    return versionCode
+}
+
+def getReleaseVersionName() {
+    def version = getCurrentVersion()
+
+    def versionParts = version.findAll( /\d+/ )*.toInteger()
+    def major = versionParts[0]
+    def minor = versionParts[1]
+    def releaseVersion = major + "." + minor
+
+    println sprintf("Returning ReleaseVersionName %s", releaseVersion)
+    return releaseVersion
+}
+
+def getReleaseVersionCode(){
+    def version = getCurrentVersion()
+
+    def versionParts = version.findAll( /\d+/ )*.toInteger()
+    def versionCode = versionParts[0]*10000 + versionParts[1]*100
+    println sprintf("Returning ReleaseVersionCode %d", versionCode)
+    return versionCode
+}
+
+def getDevVersionCode() {
+    def version = getCurrentVersion()
+
+    def versionParts = version.findAll( /\d+/ )*.toInteger()
+    def versionCode = versionParts[0]*10000 + versionParts[1]*100 + versionParts[2]
+    println sprintf("Returning DevVersionCode %d", versionCode)
+    return versionCode
+}
+
+def getDevVersionName() {
+    def version = getCurrentVersion()
+    Date now = new Date()
+    SimpleDateFormat timestamp = new SimpleDateFormat("yyMMdd");
+    def buildName = "-B"+timestamp.format(now)
+    println sprintf("Returning DevVersionName %s", version + buildName)
+    return version + buildName
+}
