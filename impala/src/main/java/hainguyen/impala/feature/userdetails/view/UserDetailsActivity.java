@@ -22,7 +22,7 @@ import hainguyen.impala.model.api.LoginResponse;
 public class UserDetailsActivity extends BaseActivity implements UserDetailsView {
 
     @Inject
-    UserDetailsPresenter presenter;
+    UserDetailsPresenter detailsPresenter;
 
     @BindView(R.id.textViewWelcome)
     TextView textViewWelcome;
@@ -49,8 +49,8 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
         setupViewComponent();
-        presenter.setView(this);
-        presenter.getUserDetails();
+        detailsPresenter.setView(this);
+        detailsPresenter.getUserDetails();
     }
 
     @OnClick(R.id.fab)
@@ -87,5 +87,11 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         this.finish();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        detailsPresenter.destroyView();
     }
 }
