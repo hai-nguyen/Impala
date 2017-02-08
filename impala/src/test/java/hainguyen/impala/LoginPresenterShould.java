@@ -75,7 +75,7 @@ public class LoginPresenterShould {
         when(service.login("test@cba.com", "12345")).thenReturn(Observable.just(response));
         loginPresenter.attemptLogin("test@cba.com", "12345");
 
-        verify(view).goToDetailsPage(response);
+        verify(view).goToDetailsPage();
     }
 
     @Test public void populateContactToEmailList() {
