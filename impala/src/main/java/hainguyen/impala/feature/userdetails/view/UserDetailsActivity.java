@@ -14,9 +14,10 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import hainguyen.impala.R;
 import hainguyen.impala.application.ImpalaApplication;
-import hainguyen.impala.model.api.LoginResponse;
 import hainguyen.impala.feature.base.BaseActivity;
+import hainguyen.impala.feature.login.view.LoginActivity;
 import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenter;
+import hainguyen.impala.model.api.LoginResponse;
 
 public class UserDetailsActivity extends BaseActivity implements UserDetailsView {
 
@@ -41,8 +42,6 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
     @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    private LoginResponse user;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,9 +50,7 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
         setSupportActionBar(toolbar);
         setupViewComponent();
         presenter.setView(this);
-        Intent intent = getIntent();
-
-        populateUserDetails();
+        presenter.getUserDetails();
     }
 
     @OnClick(R.id.fab)
@@ -71,17 +68,24 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
     }
 
     @Override
-    public void populateUserDetails() {
+    public void populateUserDetails(LoginResponse userDetails) {
         //Application Bus
         textViewWelcome.setText(String.format(textViewWelcome.getText().toString(),
-                presenter.getUserDetails().fullName()));
+                userDetails.fullName()));
         textViewDOB.setText(String.format(textViewDOB.getText().toString(),
-                presenter.getUserDetails().dateOfBirth()));
+                userDetails.dateOfBirth()));
         textViewAddress.setText(String.format(textViewAddress.getText().toString(),
-                presenter.getUserDetails().address()));
+                userDetails.address()));
         textViewGender.setText(String.format(textViewGender.getText().toString(),
-                presenter.getUserDetails().gender()));
+                userDetails.gender()));
         textViewPhone.setText(String.format(textViewPhone.getText().toString(),
-                presenter.getUserDetails().phone()));
+                userDetails.phone()));
+    }
+
+    @Override
+    public void backToLoginScreen() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        this.finish();
     }
 }

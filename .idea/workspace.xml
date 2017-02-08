@@ -10,123 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39badbf-f2bc-475e-9764-959c3f190260" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/AppiumSampleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/UIElements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/ValidationValues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/base/BaseTestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/base/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acceptance/versions.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/androidTest/java/dmt/hercules/aceptancetest/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/AppiumSampleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/Interface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/Variable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/base/BaseTestClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/base/Util.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_001.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_002.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_003.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_004.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_005.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_006.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_007.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_008.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_009.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_010.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_011.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_012.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_013.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_014.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_015.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_016.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_017.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_018.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_019.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_020.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_021.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_022.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_023.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_024.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_025.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_026.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_027.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_028.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/registration_029.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_001.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_002.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_003.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_004.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_005.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_006.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_007.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_008.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_009.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_010.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/servicing_011.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/start_appium.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/stop_appium.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/assets/uninstall_apk.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/configuration/versioning.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/api/LoginRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/api/LoginRepositoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/api/LoginService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/application/ApplicationBus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/application/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/application/HerculesApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/application/scheduler/HerculesScheduler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/appsenum/Enums.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/injection/ApiModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/injection/AppComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/injection/AppModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/injection/PresenterModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/model/api/LoginRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/model/api/LoginResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/base/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/base/HerculesPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/base/HerculesView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/login/presenter/LoginPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/login/presenter/LoginPresenterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/login/view/LoginActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/login/view/LoginView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/userdetails/presenter/UserDetailsPresenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/userdetails/presenter/UserDetailsPresenterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/userdetails/view/UserDetailsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/ui/userdetails/view/UserDetailsView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/util/AppProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/util/ContactUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/util/ContactUtilImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/java/dmt/hercules/util/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/layout/activity_login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/layout/activity_user_details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/layout/content_user_details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/test/java/dmt/hercules/LoginPresenterShould.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/test/java/dmt/hercules/UserDetailsPresenterShould.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hercules/src/test/java/dmt/hercules/utils/SynchronousSchedulers.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aceptance/.gitignore" afterPath="$PROJECT_DIR$/acceptance/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aceptance/build.gradle" afterPath="$PROJECT_DIR$/acceptance/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aceptance/proguard-rules.pro" afterPath="$PROJECT_DIR$/acceptance/proguard-rules.pro" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aceptance/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/acceptance/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aceptance/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/acceptance/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acceptance/acceptance.iml" afterPath="$PROJECT_DIR$/acceptance/acceptance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/impala.iml" afterPath="$PROJECT_DIR$/impala/impala.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenter.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsView.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsView.java" />
     </list>
     <ignored path="Impala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -259,15 +151,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="UserDetailsPresenterImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#195#233#2" expanded="true" />
-                <marker date="1486451982000" expanded="false" signature="252:300" ph="com.neenbedankt.gradle.plugins:android-apt:1.4 [233]" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -5076,9 +4965,6 @@
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/ImpalaPresenter.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/ImpalaView.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/presenter/LoginPresenter.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenter.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsView.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppComponent.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/PresenterModule.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/model/api/LoginRequest.java" />
@@ -5111,10 +4997,13 @@
         <option value="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/ValidationValues.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/Constants.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/network/LoginService.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/view/LoginView.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/view/LoginActivity.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/presenter/LoginPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenter.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsView.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java" />
       </list>
     </option>
   </component>
@@ -5170,6 +5059,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5188,10 +5080,341 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userdetails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userdetails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -5224,7 +5447,7 @@
     <property name="DEBUGGABLE_PROCESS" value="hainguyen.impala" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="build&#9;PSI&#9;JAVA://hainguyen.impala.BuildConfig" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Tutorial/github/Impala/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java&#10;build&#9;PSI&#9;JAVA://hainguyen.impala.BuildConfig" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -5783,11 +6006,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="22" width="1545" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Buck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.21346469" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.23017621" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5804,11 +6027,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.7865353" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.7698238" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22488357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -5820,6 +6042,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1590153" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -5857,28 +6080,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/build/generated/source/apt/automation/debug/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl_Factory.java" />
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acceptance/automation.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -5925,10 +6126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486375659000" expanded="true" signature="59:158" ph="..." />
-            <marker date="1486375659000" expanded="true" signature="89:147" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5936,13 +6133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486375661000" expanded="true" signature="59:708" ph="..." />
-            <marker date="1486375661000" expanded="true" signature="102:697" ph="..." />
-            <marker date="1486375661000" expanded="true" signature="213:502" ph="..." />
-            <marker date="1486375661000" expanded="true" signature="529:682" ph="..." />
-            <marker date="1486375661000" expanded="true" signature="591:654" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5950,14 +6140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486453097000" expanded="true" signature="59:684" ph="..." />
-            <marker date="1486453097000" expanded="true" signature="95:673" ph="..." />
-            <marker date="1486453097000" expanded="true" signature="146:658" ph="..." />
-            <marker date="1486453097000" expanded="true" signature="176:644" ph="..." />
-            <marker date="1486453097000" expanded="true" signature="343:547" ph="..." />
-            <marker date="1486453097000" expanded="true" signature="359:529" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5986,21 +6168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1486446287000" expanded="true" signature="45:273" ph="{...}" />
-            <marker date="1486446287000" expanded="true" signature="116:271" ph="{...}" />
-            <marker date="1486446287000" expanded="true" signature="288:728" ph="{...}" />
-            <marker date="1486446287000" expanded="false" signature="305:323" ph="junit:junit:4.12 [2041] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="338:371" ph="org.mockito:mockito-all:1.10.19 [4877]" />
-            <marker date="1486446287000" expanded="false" signature="386:431" ph="org.powermock:powermock-module-junit4:1.6.2 [320] [+7 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="446:489" ph="org.powermock:powermock-api-mockito:1.6.2 [608] [+6 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="505:531" ph="org.testng:testng:6.8.13 [4960] [+2 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="539:585" ph="org.seleniumhq.selenium:selenium-java:2.53.0 [0] [+21 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="593:622" ph="io.appium:java-client:3.4.1 [1107] [+31 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="630:654" ph="org.json:json:20140107 [484]" />
-            <marker date="1486446287000" expanded="false" signature="662:698" ph="org.apache.commons:commons-csv:1.0 [240]" />
-            <marker date="1486446287000" expanded="false" signature="706:726" ph="log4j:log4j:1.2.17 [3394]" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6015,20 +6182,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <marker date="1486454744000" expanded="true" signature="54:2188" ph="..." />
-            <marker date="1486454744000" expanded="false" signature="354:389" ph="&quot;16dp&quot;" />
-            <marker date="1486454744000" expanded="false" signature="419:454" ph="&quot;16dp&quot;" />
-            <marker date="1486454744000" expanded="false" signature="482:515" ph="&quot;16dp&quot;" />
-            <marker date="1486454744000" expanded="false" signature="546:579" ph="&quot;16dp&quot;" />
-            <marker date="1486454744000" expanded="false" signature="608:648" ph="&quot;android.support.design.widget.AppBarLayout$ScrollingVie...&quot;" />
-            <marker date="1486454744000" expanded="true" signature="756:2170" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="940:1122" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="1215:1388" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="1480:1641" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="1734:1897" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="1990:2149" ph="..." />
-          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -6039,13 +6192,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <marker date="1486454744000" expanded="true" signature="87:1430" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="448:972" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="648:921" ph="..." />
-            <marker date="1486454744000" expanded="true" signature="1084:1378" ph="..." />
-            <marker date="1486454744000" expanded="false" signature="1298:1317" ph="&quot;16dp&quot;" />
-          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -6056,25 +6202,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-653">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1486440432000" expanded="true" signature="72:3317" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="330:363" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="false" signature="392:427" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="false" signature="457:492" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="false" signature="520:553" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="true" signature="673:956" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="974:3301" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="1136:3283" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="1400:2001" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="1553:1939" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="1760:1782" ph="&quot;Email&quot;" />
-            <marker date="1486440432000" expanded="true" signature="2062:2851" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="2203:2789" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="2413:2438" ph="&quot;Password (optional)&quot;" />
-            <marker date="1486440432000" expanded="false" signature="2543:2573" ph="&quot;Sign in&quot;" />
-            <marker date="1486440432000" expanded="true" signature="2873:3258" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="3188:3212" ph="&quot;Sign in or register&quot;" />
-          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -6092,15 +6219,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1486440432000" expanded="true" signature="54:981" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="294:329" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="false" signature="359:394" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="false" signature="422:455" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="true" signature="486:519" ph="&quot;16dp&quot;" />
-            <marker date="1486440432000" expanded="true" signature="597:766" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="853:962" ph="..." />
-          </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -6111,32 +6229,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1486455535000" expanded="true" signature="10:902" ph="..." />
-            <marker date="1486455535000" expanded="true" signature="732:820" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <marker date="1486440432000" expanded="true" signature="107:1644" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="531:1631" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="718:736" ph="&quot;Hercules&quot;" />
-            <marker date="1486440432000" expanded="true" signature="891:1113" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="919:1093" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="1132:1352" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="1244:1274" ph="&quot;Sign in&quot;" />
-            <marker date="1486440432000" expanded="true" signature="1371:1612" ph="..." />
-            <marker date="1486440432000" expanded="false" signature="1495:1532" ph="&quot;UserDetailsActivity&quot;" />
-          </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/gradle.properties">
@@ -6150,117 +6253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1337">
           <caret line="280" column="11" selection-start-line="280" selection-start-column="11" selection-end-line="280" selection-end-column="11" />
-          <folding>
-            <marker date="1477474636000" expanded="false" signature="0:615" ph="/.../" />
-            <marker date="1477474636000" expanded="false" signature="649:1641" ph="..." />
-            <marker date="1477474636000" expanded="true" signature="1643:10413" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="10523:10578" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="10652:10727" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="10786:10838" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="11174:11413" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="11449:11652" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="11681:11982" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="12012:12456" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="12497:12784" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="12815:12971" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="13002:13294" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="13322:13437" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="13472:13607" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="13658:13912" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="13941:14070" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="14109:14364" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="14395:14530" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="14573:15021" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="15051:15160" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="15201:15421" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="15472:16231" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="16318:16791" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="16823:16952" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="16993:17179" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="17220:17983" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="18049:20097" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="20184:21276" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="21357:22065" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="22125:22290" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="22318:22585" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="22627:22843" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="22902:23118" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="23171:23508" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="23591:23710" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="23756:24001" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="24045:24351" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="24422:24924" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="24990:25307" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="25373:25799" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="25867:26006" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="26038:27136" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="27170:27722" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="27815:28198" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="28230:28582" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="28626:31113" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="31174:32101" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="32185:32993" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="33050:34097" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="34180:34980" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="35042:35717" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="35761:37332" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="37376:37689" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="37724:38053" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="38096:38539" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="38603:38830" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="38878:39258" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="39326:39551" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="39595:39966" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="40026:40219" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="40270:40436" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="40487:42203" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="42234:42505" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="42546:43009" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="43061:43257" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="43311:43780" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="43837:44002" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="44044:44922" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="44974:45413" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="45451:45850" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="45900:46110" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="46136:46245" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="46281:46510" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="46570:46898" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="46952:47200" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="47260:47590" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="47644:47785" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="47848:47988" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="48050:48259" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="48307:48851" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="48898:49228" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="49280:49509" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="49551:50718" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="50798:51911" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="51979:52154" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="52184:52365" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="52395:52804" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="52843:53716" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="53785:54131" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="54211:54437" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="54530:54754" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="54801:55157" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="55212:55622" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="55669:56104" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="56159:56464" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="56506:56859" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="56913:57744" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="57788:58332" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="58378:58695" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="58755:59084" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="59146:59299" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="59330:59570" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="59605:60117" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="60187:60729" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="60836:61472" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="61566:61740" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="61786:62009" ph="/**...*/" />
-            <marker date="1477474636000" expanded="true" signature="62051:62182" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6268,30 +6260,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <marker date="1486457128000" expanded="false" signature="44:372" ph="..." />
-            <marker date="1486457128000" expanded="true" signature="526:537" ph=" { " />
-            <marker date="1486457128000" expanded="true" signature="569:575" ph=" }" />
-            <marker date="1486457128000" expanded="true" signature="651:691" ph="{...}" />
-            <marker date="1486457128000" expanded="false" signature="749:760" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="778:784" ph=" }" />
-            <marker date="1486457128000" expanded="false" signature="843:854" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="883:889" ph=" }" />
-            <marker date="1486457128000" expanded="true" signature="895:919" ph="@{...}" />
-            <marker date="1486457128000" expanded="false" signature="962:977" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="1005:1011" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#195#233#2" expanded="true" />
-            <marker date="1486451982000" expanded="false" signature="252:300" ph="com.neenbedankt.gradle.plugins:android-apt:1.4 [233]" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -6299,57 +6274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="42" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <marker date="1486379253000" expanded="true" signature="97:295" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="114:120" ph="{" />
-            <marker date="1486379253000" expanded="true" signature="129:133" ph="}" />
-            <marker date="1486379253000" expanded="true" signature="150:293" ph="{...}" />
-            <marker date="1486379253000" expanded="false" signature="166:214" ph="com.neenbedankt.gradle.plugins:android-apt:1.8 [194]" />
-            <marker date="1486379253000" expanded="false" signature="229:289" ph="com.github.hamsterksu:android-appversion-gradle-plugin:1.+ [processing...]" />
-            <marker date="1486379253000" expanded="true" signature="309:460" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="368:374" ph="{" />
-            <marker date="1486379253000" expanded="true" signature="410:414" ph="}" />
-            <marker date="1486379253000" expanded="true" signature="573:1587" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="644:731" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="745:1187" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="759:1023" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1034:1183" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1206:1585" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1216:1329" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1339:1452" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1468:1581" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1589:1685" ph="..." />
-            <marker date="1486379253000" expanded="true" signature="1698:1841" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1707:1839" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1718:1793" ph="{...}" />
-            <marker date="1486379253000" expanded="true" signature="1856:3157" ph="{...}" />
-            <marker date="1486379253000" expanded="false" signature="1894:1926" ph="com.google.dagger:dagger:2.0.1 [94] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="1933:1974" ph="com.google.dagger:dagger-compiler:2.0.1 [2323] [+4 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="1986:2027" ph="org.glassfish:javax.annotation:10.0-b28 [20]" />
-            <marker date="1486379253000" expanded="false" signature="2034:2078" ph="com.jakewharton:butterknife-compiler:8.0.1 [323] [+7 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2089:2124" ph="com.jakewharton:butterknife:8.0.1 [133] [+2 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2147:2174" ph="io.reactivex:rxjava:1.1.5 [5170]" />
-            <marker date="1486379253000" expanded="false" signature="2185:2215" ph="io.reactivex:rxandroid:1.2.0 [74] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2241:2279" ph="com.google.auto.value:auto-value:1.2 [8173]" />
-            <marker date="1486379253000" expanded="false" signature="2286:2324" ph="com.google.auto.value:auto-value:1.2 [8173]" />
-            <marker date="1486379253000" expanded="false" signature="2347:2388" ph="com.android.support:appcompat-v7:23.3.0 [5385] [+4 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2399:2432" ph="com.google.code.gson:gson:2.8.0 [1345]" />
-            <marker date="1486379253000" expanded="false" signature="2443:2478" ph="com.android.support:design:23.3.0 [2470] [+6 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2502:2541" ph="com.squareup.retrofit2:retrofit:2.0.2 [505] [+2 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2552:2587" ph="com.squareup.okhttp3:okhttp:3.2.0 [2140] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2598:2646" ph="com.squareup.okhttp3:logging-interceptor:3.2.0 [64] [+2 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2657:2702" ph="com.squareup.retrofit2:converter-gson:2.0.2 [32] [+4 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2713:2758" ph="com.squareup.retrofit2:adapter-rxjava:2.0.2 [115] [+4 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="2765:2814" ph="com.ryanharter.auto.value:auto-value-gson:0.4.6 [processing...]" />
-            <marker date="1486379253000" expanded="false" signature="2826:2875" ph="com.ryanharter.auto.value:auto-value-gson:0.4.6 [processing...]" />
-            <marker date="1486379253000" expanded="false" signature="2903:2940" ph="com.jakewharton.timber:timber:2.7.1 [109]" />
-            <marker date="1486379253000" expanded="false" signature="2971:2989" ph="junit:junit:4.12 [2041] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="3004:3037" ph="org.mockito:mockito-all:1.10.19 [4877]" />
-            <marker date="1486379253000" expanded="false" signature="3052:3097" ph="org.powermock:powermock-module-junit4:1.6.2 [320] [+7 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="false" signature="3112:3155" ph="org.powermock:powermock-api-mockito:1.6.2 [608] [+6 extra dependencies, check tooltip]" />
-            <marker date="1486379253000" expanded="true" signature="3277:3281" ph="{" />
-            <marker date="1486379253000" expanded="true" signature="3344:3346" ph="}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6357,9 +6281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1486456523000" expanded="false" signature="0:54" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6374,11 +6295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <marker date="1486457836000" expanded="true" signature="45:187" ph="..." />
-            <marker date="1486457836000" expanded="true" signature="426:1040" ph="{...}" />
-            <marker date="1486457836000" expanded="true" signature="1090:2277" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6387,35 +6303,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
           <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding>
-            <marker date="1486458084000" expanded="true" signature="50:305" ph="..." />
-            <marker date="1486458084000" expanded="true" signature="491:638" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="668:1046" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="1100:1392" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="1462:1776" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="1865:2526" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="2607:3264" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="3342:3482" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="3578:3722" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="3795:4440" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="4509:5156" ph="{...}" />
-            <marker date="1486458084000" expanded="true" signature="5229:5556" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="391">
             <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/base/BaseTestClass.java">
@@ -6438,11 +6339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1486440556000" expanded="false" signature="205:216" ph=" { " />
-            <marker date="1486440556000" expanded="false" signature="237:243" ph=" }" />
-            <marker date="1486440556000" expanded="true" signature="307:358" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6450,21 +6346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <marker date="1486458302000" expanded="false" signature="44:640" ph="..." />
-            <marker date="1486458302000" expanded="true" signature="642:660" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="691:739" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="771:782" ph=" { " />
-            <marker date="1486458302000" expanded="true" signature="809:815" ph=" }" />
-            <marker date="1486458302000" expanded="true" signature="821:845" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="885:1111" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1117:1141" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1253:1654" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1660:1684" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1741:1800" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1806:1830" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1896:1952" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6472,18 +6353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1486458302000" expanded="false" signature="46:314" ph="..." />
-            <marker date="1486458302000" expanded="false" signature="487:498" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="514:520" ph=" }" />
-            <marker date="1486458302000" expanded="false" signature="571:582" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="598:604" ph=" }" />
-            <marker date="1486458302000" expanded="true" signature="633:691" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="726:948" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="954:989" ph="/**...*/" />
-            <marker date="1486458302000" expanded="false" signature="1031:1042" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="1062:1068" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6499,23 +6368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1486459020000" expanded="true" signature="187:194" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <marker date="1486459235000" expanded="false" signature="59:632" ph="..." />
-            <marker date="1486459235000" expanded="true" signature="1248:1557" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="1624:1805" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="1858:1937" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="1991:2712" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6523,12 +6375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1486440828000" expanded="false" signature="42:153" ph="..." />
-            <marker date="1486440828000" expanded="false" signature="310:321" ph=" { " />
-            <marker date="1486440828000" expanded="false" signature="349:355" ph=" }" />
-            <marker date="1486440828000" expanded="true" signature="441:593" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6536,9 +6382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1486440823000" expanded="false" signature="42:105" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6546,9 +6389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1486459075000" expanded="false" signature="42:209" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6556,9 +6396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <marker date="1486440614000" expanded="false" signature="58:198" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6566,16 +6403,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/presenter/LoginPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
-            <marker date="1486459235000" expanded="false" signature="53:158" ph="..." />
+            <marker date="1486459247000" expanded="true" signature="58:586" ph="..." />
+            <marker date="1486459247000" expanded="true" signature="932:1039" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="1091:1182" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="1224:1394" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="1475:2228" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="1747:2167" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="1801:1820" ph="{...}" />
+            <marker date="1486459247000" expanded="false" signature="1880:1903" ph=" { " />
+            <marker date="1486459247000" expanded="false" signature="1934:1952" ph=" }" />
+            <marker date="1486459247000" expanded="true" signature="2020:2153" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="2300:3175" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="2606:3109" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="2660:2712" ph="{...}" />
+            <marker date="1486459247000" expanded="false" signature="2772:2795" ph=" { " />
+            <marker date="1486459247000" expanded="false" signature="2825:2843" ph=" }" />
+            <marker date="1486459247000" expanded="true" signature="2919:3095" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="3234:3542" ph="{...}" />
+            <marker date="1486459247000" expanded="true" signature="3607:3780" ph="{...}" />
+            <marker date="1486459247000" expanded="false" signature="3834:3845" ph=" { " />
+            <marker date="1486459247000" expanded="false" signature="3874:3880" ph=" }" />
+            <marker date="1486459247000" expanded="false" signature="3928:3939" ph=" { " />
+            <marker date="1486459247000" expanded="false" signature="3966:3972" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1486526895000" expanded="false" signature="64:176" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1486526895000" expanded="true" signature="59:149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+          <folding>
+            <marker date="1486526895000" expanded="false" signature="59:601" ph="..." />
+            <marker date="1486526895000" expanded="true" signature="1217:1493" ph="{...}" />
+            <marker date="1486526895000" expanded="true" signature="1560:1741" ph="{...}" />
+            <marker date="1486526895000" expanded="true" signature="1794:1873" ph="{...}" />
+            <marker date="1486526895000" expanded="true" signature="1952:2598" ph="{...}" />
+            <marker date="1486526895000" expanded="true" signature="2650:2658" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/view/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="183" column="32" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="32" />
+        <state relative-caret-position="96">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="186" selection-end-column="22" />
           <folding>
             <marker date="1486459235000" expanded="false" signature="53:1168" ph="..." />
             <marker date="1486459235000" expanded="true" signature="1170:1233" ph="/**...*/" />
@@ -6617,13 +6524,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/presenter/LoginPresenterImpl.java">
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
