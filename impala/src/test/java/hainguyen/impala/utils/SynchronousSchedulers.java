@@ -8,9 +8,6 @@ import rx.schedulers.Schedulers;
 
 import static hainguyen.impala.application.scheduler.ImpalaScheduler.instance;
 
-/**
- * Created by nguyenminhhai on 23/5/16.
- */
 public class SynchronousSchedulers extends ExternalResource {
     @Override
     protected void before() throws Throwable {

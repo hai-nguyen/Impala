@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39badbf-f2bc-475e-9764-959c3f190260" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java" afterPath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java" afterPath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java" />
     </list>
     <ignored path="Impala.iws" />
@@ -145,11 +143,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginPresenterShould.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java">
+      <file leaf-file-name="UserDetailsPresenterShould.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -5777,10 +5775,13 @@
     <history-entry file="All_in_impala - 2017.02.07 at 11h 14m 57s.xml">
       <configuration name="All in impala" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_impala - 2017.02.08 at 12h 45m 47s.xml">
+      <configuration name="All in impala" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="22" width="1545" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Buck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5804,7 +5805,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.76683086" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.76683086" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22488357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -6471,23 +6472,31 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <marker date="1486532715000" expanded="false" signature="34:431" ph="..." />
-            <marker date="1486532715000" expanded="true" signature="433:480" ph="/**...*/" />
-            <marker date="1486532715000" expanded="true" signature="852:962" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="1024:1138" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <marker date="1486532715000" expanded="false" signature="34:814" ph="..." />
+            <marker date="1486532715000" expanded="true" signature="816:863" ph="/**...*/" />
+            <marker date="1486532715000" expanded="true" signature="1439:1560" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="1628:1756" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="1813:1931" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="1987:2069" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="2141:2238" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="2292:2371" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="2433:2635" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="2688:3019" ph="{...}" />
+            <marker date="1486532715000" expanded="true" signature="3074:3312" ph="{...}" />
+            <marker date="1486532715000" expanded="false" signature="3164:3179" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>

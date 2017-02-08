@@ -25,9 +25,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-/**
- * Created by nguyenminhhai on 23/5/16.
- */
+
 public class LoginPresenterShould {
 
     private LoginPresenterImpl loginPresenter;

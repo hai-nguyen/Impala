@@ -12,9 +12,7 @@ import hainguyen.impala.model.api.LoginResponse;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-/**
- * Created by nguyenminhhai on 24/5/16.
- */
+
 public class UserDetailsPresenterShould {
 
     ApplicationBus bus = mock(ApplicationBus.class);
@@ -22,13 +20,15 @@ public class UserDetailsPresenterShould {
     LoginResponse response = LoginResponse.create(1, "TestName", "", "", "", "");
     UserDetailsView view = mock(UserDetailsView.class);
 
-    @Before public void setUp() throws Exception {
+    @Before
+    public void setUp() throws Exception {
         when(bus.getLoginResponse()).thenReturn(response);
         userDetailsPresenter.setView(view);
     }
 
-    @Test public void returnLoginResponseIfUserIsLoggedIn() {
-       userDetailsPresenter.getUserDetails();
+    @Test
+    public void returnLoginResponseIfUserIsLoggedIn() {
+        userDetailsPresenter.getUserDetails();
         Mockito.verify(view).populateUserDetails(response);
     }
 }
