@@ -19,6 +19,6 @@ I chose Apprium as Automation test framework, in this example you will see that 
 
 # Todo
 
-~~1. Add more advance Dagger 2 implementation~~
+1. ~~Add more advance Dagger 2 implementation~~
 2. More Rxjava
 3. Improve automation test with BDD and Page Object
