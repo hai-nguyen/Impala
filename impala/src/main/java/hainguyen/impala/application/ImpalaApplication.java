@@ -2,11 +2,11 @@ package hainguyen.impala.application;
 
 import android.app.Application;
 
-import hainguyen.impala.injection.ApiModule;
-import hainguyen.impala.injection.AppComponent;
-import hainguyen.impala.injection.AppModule;
-import hainguyen.impala.injection.DaggerAppComponent;
-import hainguyen.impala.injection.PresenterModule;
+import hainguyen.impala.injection.component.AppComponent;
+import hainguyen.impala.injection.component.DaggerAppComponent;
+import hainguyen.impala.injection.module.ApiModule;
+import hainguyen.impala.injection.module.AppModule;
+import hainguyen.impala.injection.module.PresenterModule;
 
 public class ImpalaApplication extends Application {
 

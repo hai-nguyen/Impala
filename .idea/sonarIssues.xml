@@ -258,6 +258,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/AppComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/PresenterModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/UserComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/UserModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/UserScope.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/userScope.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/model/api/LoginRequest.java">
           <value>
             <set />
@@ -359,6 +394,46 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/Enums.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/service/healthcheck/HealthCheckHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/ui/base/ToolbarActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/ui/home/HomeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/ui/servicing/login/id/LoginEnterIdNumberPresenterImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/ui/startverifyfingerprint/StartVerifyFingerPrintActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/futronictech/activity/FingerPrintHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/kiosk-mobile/app/src/test/java/com/ptbc/kiosk/presenter/company/CompanyNamePresenterShouldTest.java">
           <value>
             <set />
           </value>

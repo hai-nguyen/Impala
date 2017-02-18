@@ -10,7 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39badbf-f2bc-475e-9764-959c3f190260" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java" afterPath="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/UserComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/UserModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/userScope.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/ApiModule.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/ApiModule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppComponent.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/AppComponent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppModule.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/AppModule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/PresenterModule.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_acceptance_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_acceptance_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_acceptance_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_acceptance_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acceptance/acceptance.iml" afterPath="$PROJECT_DIR$/acceptance/acceptance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/impala.iml" afterPath="$PROJECT_DIR$/impala/impala.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java" afterPath="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java" />
     </list>
     <ignored path="Impala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,11 +163,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserDetailsPresenterShould.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java">
+      <file leaf-file-name="UserModule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/UserModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,6 +178,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="ASInterface" />
         <option value="ASClass" />
       </list>
     </option>
@@ -4945,17 +4966,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/util/Utils.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/util/ContactUtilImpl.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/util/ContactUtil.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/scheduler/ImpalaScheduler.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ApplicationBus.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/HerculesPresenter.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/ImpalaView.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/login/presenter/LoginPresenter.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppComponent.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/PresenterModule.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/model/api/LoginRequest.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/model/api/LoginResponse.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/network/LoginRepository.java" />
@@ -4982,7 +4992,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/util/AppProperties.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/ApiModule.java" />
-        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java" />
         <option value="$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/ValidationValues.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/Constants.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/network/LoginService.java" />
@@ -4994,15 +5003,26 @@
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/presenter/UserDetailsPresenterImpl.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/userdetails/view/UserDetailsActivity.java" />
         <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/ImpalaPresenter.java" />
-        <option value="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java" />
         <option value="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java" />
+        <option value="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java" />
+        <option value="$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/utils/SynchronousSchedulers.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/userScope.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/AppComponent.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/ApiModule.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/AppModule.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/UserScope.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/PresenterModule.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/AppModule.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/UserComponent.java" />
+        <option value="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/UserModule.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
     <option name="y" value="22" />
-    <option name="width" value="1545" />
+    <option name="width" value="1680" />
     <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -5030,30 +5050,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Impala" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Impala" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impala" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5134,6 +5135,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5185,10 +5220,143 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scope" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impala" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impala" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5226,7 +5394,7 @@
       <recent name="$PROJECT_DIR$/acceptance/src/test/java/dmt/hercules/aceptancetest/page" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in impala">
+  <component name="RunManager" selected="Android App.impala">
     <configuration default="false" name="All in impala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="impala" />
@@ -5778,14 +5946,17 @@
     <history-entry file="All_in_impala - 2017.02.08 at 12h 45m 47s.xml">
       <configuration name="All in impala" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_impala - 2017.02.18 at 17h 29m 13s.xml">
+      <configuration name="All in impala" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="22" width="1545" height="1024" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Buck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.23316912" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3003663" sideWeight="0.25287357" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5800,14 +5971,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30073187" sideWeight="0.76683086" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3003663" sideWeight="0.74712646" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22488357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22466423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -5819,6 +5990,14 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1590153" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -5855,34 +6034,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89538">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -5894,21 +6045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1486446287000" expanded="true" signature="45:273" ph="{...}" />
-            <marker date="1486446287000" expanded="true" signature="116:271" ph="{...}" />
-            <marker date="1486446287000" expanded="true" signature="288:728" ph="{...}" />
-            <marker date="1486446287000" expanded="false" signature="305:323" ph="junit:junit:4.12 [2041] [+1 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="338:371" ph="org.mockito:mockito-all:1.10.19 [4877]" />
-            <marker date="1486446287000" expanded="false" signature="386:431" ph="org.powermock:powermock-module-junit4:1.6.2 [320] [+7 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="446:489" ph="org.powermock:powermock-api-mockito:1.6.2 [608] [+6 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="505:531" ph="org.testng:testng:6.8.13 [4960] [+2 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="539:585" ph="org.seleniumhq.selenium:selenium-java:2.53.0 [0] [+21 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="593:622" ph="io.appium:java-client:3.4.1 [1107] [+31 extra dependencies, check tooltip]" />
-            <marker date="1486446287000" expanded="false" signature="630:654" ph="org.json:json:20140107 [484]" />
-            <marker date="1486446287000" expanded="false" signature="662:698" ph="org.apache.commons:commons-csv:1.0 [240]" />
-            <marker date="1486446287000" expanded="false" signature="706:726" ph="log4j:log4j:1.2.17 [3394]" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5916,38 +6052,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/content_user_details.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/activity_user_details.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/activity_user_details.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-653">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acceptance/build/reports/tests/debug/index.html">
@@ -5958,13 +6093,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/main/res/values/strings.xml">
@@ -5992,19 +6127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1486451982000" expanded="true" signature="113:308" ph="{...}" />
-            <marker date="1486451982000" expanded="true" signature="132:142" ph="{" />
-            <marker date="1486451982000" expanded="true" signature="151:157" ph="}" />
-            <marker date="1486451982000" expanded="true" signature="175:306" ph="{...}" />
-            <marker date="1486451982000" expanded="true" signature="195:233" ph="com.android.tools.build:gradle:2.2.3 [processing...]" />
-            <marker date="1486451982000" expanded="false" signature="252:300" ph="com.neenbedankt.gradle.plugins:android-apt:1.4 [233]" />
-            <marker date="1486451982000" expanded="true" signature="322:368" ph="{...}" />
-            <marker date="1486451982000" expanded="true" signature="341:351" ph="{" />
-            <marker date="1486451982000" expanded="true" signature="360:366" ph="}" />
-            <marker date="1486451982000" expanded="true" signature="395:401" ph="{" />
-            <marker date="1486451982000" expanded="true" signature="428:430" ph="}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6096,6 +6218,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="391">
@@ -6103,9 +6228,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acceptance/src/test/java/hainguyen/impala/automation/base/BaseTestClass.java">
@@ -6120,25 +6242,6 @@
             <marker date="1486453670000" expanded="false" signature="1647:1658" ph=" { " />
             <marker date="1486453670000" expanded="false" signature="1676:1682" ph=" }" />
             <marker date="1486453670000" expanded="true" signature="1743:2792" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1486458302000" expanded="false" signature="46:314" ph="..." />
-            <marker date="1486458302000" expanded="false" signature="487:498" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="514:520" ph=" }" />
-            <marker date="1486458302000" expanded="false" signature="571:582" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="598:604" ph=" }" />
-            <marker date="1486458302000" expanded="true" signature="633:691" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="726:948" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="954:989" ph="/**...*/" />
-            <marker date="1486458302000" expanded="false" signature="1031:1042" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="1062:1068" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -6169,44 +6272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="235" column="10" selection-start-line="233" selection-start-column="4" selection-end-line="237" selection-end-column="5" />
-          <folding>
-            <marker date="1486459235000" expanded="false" signature="53:1168" ph="..." />
-            <marker date="1486459235000" expanded="true" signature="1170:1233" ph="/**...*/" />
-            <marker date="1486459235000" expanded="true" signature="1716:1795" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="1866:2183" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="2320:2466" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="2549:2560" ph=" { " />
-            <marker date="1486459235000" expanded="false" signature="2568:2574" ph=" }" />
-            <marker date="1486459235000" expanded="true" signature="2601:2888" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="2944:3842" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="3268:3297" ph="&quot;Contacts permissions are needed for providing email&#10;   ...&quot;" />
-            <marker date="1486459235000" expanded="false" signature="3379:3553" ph="(v) → {" />
-            <marker date="1486459235000" expanded="false" signature="3674:3701" ph="}" />
-            <marker date="1486459235000" expanded="true" signature="3924:4199" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="4248:4325" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="4368:4441" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="4393:4433" ph="&quot;This field is required&quot;" />
-            <marker date="1486459235000" expanded="true" signature="4484:4556" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="4509:4548" ph="&quot;This email address is invalid&quot;" />
-            <marker date="1486459235000" expanded="true" signature="4601:4679" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="4730:4849" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="4762:4804" ph="&quot;This password is too short&quot;" />
-            <marker date="1486459235000" expanded="true" signature="4855:4938" ph="/**...*/" />
-            <marker date="1486459235000" expanded="true" signature="5116:5293" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="5364:5468" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="5561:5796" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="5846:5976" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="5982:6048" ph="/**...*/" />
-            <marker date="1486459235000" expanded="true" signature="6054:6113" ph="@{...}" />
-            <marker date="1486459235000" expanded="true" signature="6176:6629" ph="{...}" />
-            <marker date="1486459235000" expanded="true" signature="6704:7179" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="6916:7046" ph="(AnimatorListenerAdapter) onAnimationEnd(animation) → {" />
-            <marker date="1486459235000" expanded="false" signature="7148:7171" ph="}" />
-            <marker date="1486459235000" expanded="true" signature="7251:7729" ph="{...}" />
-            <marker date="1486459235000" expanded="false" signature="7465:7595" ph="(AnimatorListenerAdapter) onAnimationEnd(animation) → {" />
-            <marker date="1486459235000" expanded="false" signature="7698:7721" ph="}" />
-            <marker date="1486459235000" expanded="true" signature="7776:7848" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6214,11 +6279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1486440556000" expanded="true" signature="205:216" ph=" { " />
-            <marker date="1486440556000" expanded="true" signature="237:243" ph=" }" />
-            <marker date="1486440556000" expanded="true" signature="307:358" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6226,7 +6286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6234,7 +6293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6242,9 +6300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <marker date="1486440614000" expanded="false" signature="58:198" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6252,30 +6307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <marker date="1486459247000" expanded="true" signature="58:586" ph="..." />
-            <marker date="1486459247000" expanded="true" signature="932:1039" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="1091:1182" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="1224:1394" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="1475:2228" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="1747:2167" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="1801:1820" ph="{...}" />
-            <marker date="1486459247000" expanded="false" signature="1880:1903" ph=" { " />
-            <marker date="1486459247000" expanded="false" signature="1934:1952" ph=" }" />
-            <marker date="1486459247000" expanded="true" signature="2020:2153" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="2300:3175" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="2606:3109" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="2660:2712" ph="{...}" />
-            <marker date="1486459247000" expanded="false" signature="2772:2795" ph=" { " />
-            <marker date="1486459247000" expanded="false" signature="2825:2843" ph=" }" />
-            <marker date="1486459247000" expanded="true" signature="2919:3095" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="3234:3542" ph="{...}" />
-            <marker date="1486459247000" expanded="true" signature="3607:3780" ph="{...}" />
-            <marker date="1486459247000" expanded="false" signature="3834:3845" ph=" { " />
-            <marker date="1486459247000" expanded="false" signature="3874:3880" ph=" }" />
-            <marker date="1486459247000" expanded="false" signature="3928:3939" ph=" { " />
-            <marker date="1486459247000" expanded="false" signature="3966:3972" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6283,9 +6314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <marker date="1486459235000" expanded="false" signature="53:158" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6293,9 +6321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <marker date="1486526895000" expanded="false" signature="64:176" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6303,16 +6328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <marker date="1486526895000" expanded="false" signature="64:203" ph="..." />
-            <marker date="1486526895000" expanded="false" signature="414:425" ph=" { " />
-            <marker date="1486526895000" expanded="false" signature="446:452" ph=" }" />
-            <marker date="1486526895000" expanded="false" signature="513:524" ph=" { " />
-            <marker date="1486526895000" expanded="false" signature="543:549" ph=" }" />
-            <marker date="1486526895000" expanded="false" signature="594:605" ph=" { " />
-            <marker date="1486526895000" expanded="false" signature="624:630" ph=" }" />
-            <marker date="1486526895000" expanded="true" signature="679:873" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6320,15 +6335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-          <folding>
-            <marker date="1486528883000" expanded="false" signature="59:690" ph="..." />
-            <marker date="1486528883000" expanded="true" signature="1280:1570" ph="{...}" />
-            <marker date="1486528883000" expanded="true" signature="1637:1818" ph="{...}" />
-            <marker date="1486528883000" expanded="true" signature="1871:1950" ph="{...}" />
-            <marker date="1486528883000" expanded="true" signature="2029:2675" ph="{...}" />
-            <marker date="1486528883000" expanded="true" signature="2727:2851" ph="{...}" />
-            <marker date="1486528883000" expanded="true" signature="2898:2972" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6336,9 +6342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <marker date="1486526895000" expanded="true" signature="59:149" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6346,75 +6349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <marker date="1486440432000" expanded="false" signature="42:347" ph="..." />
-            <marker date="1486440432000" expanded="true" signature="534:665" ph="{...}" />
-            <marker date="1486440432000" expanded="true" signature="735:836" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/ApiModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <marker date="1486458302000" expanded="false" signature="44:640" ph="..." />
-            <marker date="1486458302000" expanded="true" signature="642:660" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="691:739" ph="@{...}" />
-            <marker date="1486458302000" expanded="false" signature="771:782" ph=" { " />
-            <marker date="1486458302000" expanded="false" signature="809:815" ph=" }" />
-            <marker date="1486458302000" expanded="true" signature="821:845" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="885:1111" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1117:1141" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1253:1654" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1660:1684" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1741:1800" ph="{...}" />
-            <marker date="1486458302000" expanded="true" signature="1806:1830" ph="@{...}" />
-            <marker date="1486458302000" expanded="true" signature="1896:1952" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <marker date="1486457128000" expanded="false" signature="44:372" ph="..." />
-            <marker date="1486457128000" expanded="true" signature="526:537" ph=" { " />
-            <marker date="1486457128000" expanded="true" signature="569:575" ph=" }" />
-            <marker date="1486457128000" expanded="true" signature="651:691" ph="{...}" />
-            <marker date="1486457128000" expanded="false" signature="749:760" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="778:784" ph=" }" />
-            <marker date="1486457128000" expanded="false" signature="843:854" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="883:889" ph=" }" />
-            <marker date="1486457128000" expanded="true" signature="895:919" ph="@{...}" />
-            <marker date="1486457128000" expanded="false" signature="962:977" ph=" { " />
-            <marker date="1486457128000" expanded="false" signature="1005:1011" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/PresenterModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <marker date="1486440769000" expanded="false" signature="44:545" ph="..." />
-            <marker date="1486440769000" expanded="true" signature="768:834" ph="{...}" />
-            <marker date="1486440769000" expanded="true" signature="930:987" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/AppComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1486440755000" expanded="false" signature="44:319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6422,9 +6356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1486440823000" expanded="false" signature="42:105" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6445,9 +6376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1486459075000" expanded="false" signature="42:209" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6472,31 +6400,156 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/utils/SynchronousSchedulers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/UserScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1487400638000" expanded="true" signature="50:154" ph="..." />
+            <marker date="1487400638000" expanded="true" signature="156:198" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/LoginPresenterShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <marker date="1486532715000" expanded="false" signature="34:814" ph="..." />
-            <marker date="1486532715000" expanded="true" signature="816:863" ph="/**...*/" />
-            <marker date="1486532715000" expanded="true" signature="1439:1560" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="1628:1756" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="1813:1931" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="1987:2069" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="2141:2238" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="2292:2371" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="2433:2635" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="2688:3019" ph="{...}" />
-            <marker date="1486532715000" expanded="true" signature="3074:3312" ph="{...}" />
-            <marker date="1486532715000" expanded="false" signature="3164:3179" ph="&lt;~&gt;" />
+            <marker date="1486532830000" expanded="false" signature="34:814" ph="..." />
+            <marker date="1486532830000" expanded="true" signature="1392:1513" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="1581:1709" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="1766:1884" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="1940:2022" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="2094:2191" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="2245:2324" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="2386:2588" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="2641:2972" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="3027:3265" ph="{...}" />
+            <marker date="1486532830000" expanded="false" signature="3117:3132" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/impala/src/test/java/hainguyen/impala/UserDetailsPresenterShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1486532830000" expanded="false" signature="34:431" ph="..." />
+            <marker date="1486532830000" expanded="true" signature="809:919" ph="{...}" />
+            <marker date="1486532830000" expanded="true" signature="985:1099" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/ApiModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <marker date="1487400529000" expanded="false" signature="51:647" ph="..." />
+            <marker date="1487400529000" expanded="true" signature="649:667" ph="@{...}" />
+            <marker date="1487400529000" expanded="true" signature="698:746" ph="@{...}" />
+            <marker date="1487400529000" expanded="false" signature="778:789" ph=" { " />
+            <marker date="1487400529000" expanded="false" signature="816:822" ph=" }" />
+            <marker date="1487400529000" expanded="true" signature="828:852" ph="@{...}" />
+            <marker date="1487400529000" expanded="true" signature="892:1118" ph="{...}" />
+            <marker date="1487400529000" expanded="true" signature="1124:1148" ph="@{...}" />
+            <marker date="1487400529000" expanded="true" signature="1260:1661" ph="{...}" />
+            <marker date="1487400529000" expanded="true" signature="1667:1691" ph="@{...}" />
+            <marker date="1487400529000" expanded="true" signature="1748:1807" ph="{...}" />
+            <marker date="1487400529000" expanded="true" signature="1813:1837" ph="@{...}" />
+            <marker date="1487400529000" expanded="true" signature="1903:1959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1487400681000" expanded="false" signature="54:381" ph="..." />
+            <marker date="1487400681000" expanded="false" signature="54:491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <marker date="1487400673000" expanded="false" signature="51:552" ph="..." />
+            <marker date="1487400673000" expanded="true" signature="554:572" ph="@{...}" />
+            <marker date="1487400673000" expanded="true" signature="775:841" ph="{...}" />
+            <marker date="1487400673000" expanded="true" signature="937:994" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/application/ImpalaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding>
+            <marker date="1487413673000" expanded="true" signature="46:355" ph="..." />
+            <marker date="1487413673000" expanded="false" signature="528:539" ph=" { " />
+            <marker date="1487413673000" expanded="false" signature="555:561" ph=" }" />
+            <marker date="1487413673000" expanded="false" signature="612:623" ph=" { " />
+            <marker date="1487413673000" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1487413673000" expanded="true" signature="674:732" ph="{...}" />
+            <marker date="1487413673000" expanded="true" signature="767:989" ph="{...}" />
+            <marker date="1487413673000" expanded="true" signature="995:1030" ph="/**...*/" />
+            <marker date="1487413673000" expanded="false" signature="1072:1083" ph=" { " />
+            <marker date="1487413673000" expanded="false" signature="1103:1109" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/component/UserComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <marker date="1487413692000" expanded="true" signature="54:178" ph="..." />
+            <marker date="1487413692000" expanded="true" signature="180:260" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/AppModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <marker date="1487400681000" expanded="false" signature="51:379" ph="..." />
+            <marker date="1487400681000" expanded="false" signature="533:544" ph=" { " />
+            <marker date="1487400681000" expanded="false" signature="576:582" ph=" }" />
+            <marker date="1487400681000" expanded="true" signature="658:698" ph="{...}" />
+            <marker date="1487400681000" expanded="false" signature="756:767" ph=" { " />
+            <marker date="1487400681000" expanded="false" signature="785:791" ph=" }" />
+            <marker date="1487400681000" expanded="false" signature="850:861" ph=" { " />
+            <marker date="1487400681000" expanded="false" signature="890:896" ph=" }" />
+            <marker date="1487400681000" expanded="true" signature="902:926" ph="@{...}" />
+            <marker date="1487400681000" expanded="false" signature="969:984" ph=" { " />
+            <marker date="1487400681000" expanded="false" signature="1012:1018" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/UserModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
