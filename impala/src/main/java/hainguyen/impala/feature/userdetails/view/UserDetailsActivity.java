@@ -59,12 +59,12 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
                 .setAction("Action", null)
                 .show();
 
-        this.finish();
+        backToLoginScreen();
     }
 
     @Override
     public void setupViewComponent() {
-        ImpalaApplication.getInstance().getAppComponent().inject(this);
+        ImpalaApplication.getInstance().getUserComponent().inject(this);
     }
 
     @Override
@@ -86,6 +86,7 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
     public void backToLoginScreen() {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
+        detailsPresenter.releaseUserScope();
         this.finish();
     }
 

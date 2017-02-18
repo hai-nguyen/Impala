@@ -5,4 +5,5 @@ import hainguyen.impala.feature.userdetails.view.UserDetailsView;
 
 public interface UserDetailsPresenter extends ImpalaPresenter<UserDetailsView> {
     void getUserDetails();
+    void releaseUserScope();
 }

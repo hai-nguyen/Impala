@@ -7,6 +7,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import hainguyen.impala.application.ApplicationBus;
+import hainguyen.impala.application.ImpalaApplication;
 import hainguyen.impala.application.scheduler.ImpalaScheduler;
 import hainguyen.impala.appsenum.Enums;
 import hainguyen.impala.feature.login.view.LoginView;
@@ -26,19 +27,22 @@ public class LoginPresenterImpl implements LoginPresenter {
     ApplicationBus bus;
     CompositeSubscription loginSubscriptions;
 
-    @Inject public LoginPresenterImpl(LoginRepository service, ContactUtil util,
-        ApplicationBus applicationBus) {
+    @Inject
+    public LoginPresenterImpl(LoginRepository service, ContactUtil util,
+                              ApplicationBus applicationBus) {
         this.service = service;
         this.contactUtil = util;
         this.bus = applicationBus;
     }
 
-    @Override public void setView(LoginView view) {
+    @Override
+    public void setView(LoginView view) {
         loginView = view;
         loginSubscriptions = new CompositeSubscription();
     }
 
-    @Override public void destroyView() {
+    @Override
+    public void destroyView() {
         loginView = null;
         if (loginSubscriptions != null) {
             loginSubscriptions.unsubscribe();
@@ -46,52 +50,62 @@ public class LoginPresenterImpl implements LoginPresenter {
         }
     }
 
-    @Override public void populateAutoComplete(final ContentResolver resolver) {
+    @Override
+    public void populateAutoComplete(final ContentResolver resolver) {
         loginView.showProgress(true);
         Subscription contactSubscription = contactUtil.getEmailList(resolver)
-            .subscribeOn(ImpalaScheduler.io())
-            .observeOn(ImpalaScheduler.mainThread())
-            .subscribe(new Subscriber<List<String>>() {
-                @Override public void onCompleted() {
-                }
+                .subscribeOn(ImpalaScheduler.io())
+                .observeOn(ImpalaScheduler.mainThread())
+                .subscribe(new Subscriber<List<String>>() {
+                    @Override
+                    public void onCompleted() {
+                    }
 
-                @Override public void onError(Throwable e) {
-                    populateAutoComplete(resolver);
-                }
+                    @Override
+                    public void onError(Throwable e) {
+                        populateAutoComplete(resolver);
+                    }
 
-                @Override public void onNext(List<String> emails) {
-                    loginView.addEmailsToAutoComplete(emails);
-                    loginView.showProgress(false);
-                }
-            });
+                    @Override
+                    public void onNext(List<String> emails) {
+                        loginView.addEmailsToAutoComplete(emails);
+                        loginView.showProgress(false);
+                    }
+                });
         loginSubscriptions.add(contactSubscription);
     }
 
-    @Override public void attemptLogin(String email, String password) {
+    @Override
+    public void attemptLogin(String email, String password) {
         loginView.clearError();
         loginView.showProgress(true);
         Subscription loginServiceSubscription = service.login(email, password)
-            .subscribeOn(ImpalaScheduler.io())
-            .observeOn(ImpalaScheduler.mainThread())
-            .subscribe(new Subscriber<LoginResponse>() {
-                @Override public void onCompleted() {
-                    //Do nothing
-                }
+                .subscribeOn(ImpalaScheduler.io())
+                .observeOn(ImpalaScheduler.mainThread())
+                .subscribe(new Subscriber<LoginResponse>() {
+                    @Override
+                    public void onCompleted() {
+                        //Do nothing
+                    }
 
-                @Override public void onError(Throwable e) {
-                    loginView.showProgress(false);
-                }
+                    @Override
+                    public void onError(Throwable e) {
+                        loginView.showProgress(false);
+                    }
 
-                @Override public void onNext(LoginResponse loginResponse) {
-                    bus.setLoginResponse(loginResponse);
-                    loginView.showProgress(false);
-                    loginView.goToDetailsPage();
-                }
-            });
+                    @Override
+                    public void onNext(LoginResponse loginResponse) {
+                        ImpalaApplication.getInstance().createUserComponent(loginResponse);
+                        bus.setLogin(true);
+                        loginView.showProgress(false);
+                        loginView.goToDetailsPage();
+                    }
+                });
         loginSubscriptions.add(loginServiceSubscription);
     }
 
-    @Override public boolean validateEmail(String email) {
+    @Override
+    public boolean validateEmail(String email) {
         if (email.length() <= 0) {
             loginView.setEmailViewError(Enums.EmailErrorType.EMPTY);
             return false;
@@ -102,7 +116,8 @@ public class LoginPresenterImpl implements LoginPresenter {
         return true;
     }
 
-    @Override public boolean validatePassword(String password) {
+    @Override
+    public boolean validatePassword(String password) {
         if (password.length() > 0 && !isPasswordValid(password)) {
             loginView.setPasswordError();
             return false;

@@ -1,16 +1,14 @@
 package hainguyen.impala.application;
 
-import hainguyen.impala.model.api.LoginResponse;
-
 public class ApplicationBus {
 
-    private LoginResponse loginResponse;
+    private boolean isLogin;
 
-    public LoginResponse getLoginResponse() {
-        return loginResponse;
+    public boolean isLogin() {
+        return isLogin;
     }
 
-    public void setLoginResponse(LoginResponse loginResponse) {
-        this.loginResponse = loginResponse;
+    public void setLogin(boolean login) {
+        isLogin = login;
     }
 }
