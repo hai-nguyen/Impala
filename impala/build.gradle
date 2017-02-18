@@ -21,7 +21,7 @@ repositories {
 }
 
 def AppVersionName = "ImpalaDemo"
-def AppVersionCode = 1
+def AppVersionCode = 2
 def ArtifactPackageName = "hainguyen.impala"
 
 android {
