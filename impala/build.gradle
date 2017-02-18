@@ -35,7 +35,7 @@ android {
   }
   buildTypes {
     release {
-      minifyEnabled false
+      minifyEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
       buildConfigField "String", "APP_VERSION_NAME", "\"$AppVersionName\""
       buildConfigField "String", "APP_NAME", "\"${project.name}\""
