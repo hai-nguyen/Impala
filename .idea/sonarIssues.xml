@@ -408,6 +408,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/cbsa/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/cbsa/kiosk/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/cbsa/kiosk/proguard-rules-debug.pro">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/cbsa/kiosk/proguard-rules-release.pro">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/counter2counter/app/src/main/java/com/amb/counter2counter/Enums.java">
           <value>
             <set />

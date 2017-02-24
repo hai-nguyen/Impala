@@ -8,7 +8,6 @@ buildscript {
 
   dependencies {
     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-    classpath 'com.github.hamsterksu:android-appversion-gradle-plugin:1.+'
   }
 }
 repositories {
@@ -30,8 +29,9 @@ android {
 
   defaultConfig {
     applicationId "hainguyen.impala"
-    minSdkVersion 15
+    minSdkVersion 21
     targetSdkVersion 23
+
   }
   buildTypes {
     release {
