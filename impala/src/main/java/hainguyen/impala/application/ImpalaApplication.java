@@ -2,6 +2,8 @@ package hainguyen.impala.application;
 
 import android.app.Application;
 
+import com.squareup.leakcanary.LeakCanary;
+
 import hainguyen.impala.injection.component.AppComponent;
 import hainguyen.impala.injection.component.DaggerAppComponent;
 import hainguyen.impala.injection.component.UserComponent;
@@ -27,6 +29,10 @@ public class ImpalaApplication extends Application {
 
     public void onCreate() {
         super.onCreate();
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+            return;
+        }
+        LeakCanary.install(this);
         initializeApp();
     }
 
