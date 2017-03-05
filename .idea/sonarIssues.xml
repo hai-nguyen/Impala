@@ -283,6 +283,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/helper/ScopeHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/helper/ScopeHelperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/AppModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java">
           <value>
             <set />

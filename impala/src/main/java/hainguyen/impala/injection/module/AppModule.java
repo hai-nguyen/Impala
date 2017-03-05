@@ -10,10 +10,14 @@ import dagger.Module;
 import dagger.Provides;
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.application.ImpalaApplication;
+import hainguyen.impala.injection.helper.ScopeHelper;
+import hainguyen.impala.injection.helper.ScopeHelperImpl;
 import hainguyen.impala.util.ContactUtil;
 import hainguyen.impala.util.ContactUtilImpl;
 
-@Singleton @Module public class AppModule {
+@Singleton
+@Module
+public class AppModule {
 
     private final ImpalaApplication application;
 
@@ -21,22 +25,33 @@ import hainguyen.impala.util.ContactUtilImpl;
         application = impalaApplication;
     }
 
-    @Provides @javax.inject.Singleton Context provideApplicationContext() {
+    @Provides
+    @javax.inject.Singleton
+    Context provideApplicationContext() {
         return this.application;
     }
 
-    @Provides @javax.inject.Singleton Gson provideGson() {
+    @Provides
+    @javax.inject.Singleton
+    Gson provideGson() {
         return new Gson();
     }
 
-    @Provides @Singleton ContactUtil provideContactUtil() {
+    @Provides
+    @Singleton
+    ContactUtil provideContactUtil() {
         return new ContactUtilImpl();
     }
 
     @Provides
     @Singleton
-    ApplicationBus provideApplicationBus()
-    {
+    ApplicationBus provideApplicationBus() {
         return new ApplicationBus();
+    }
+
+    @Provides
+    @Singleton
+    ScopeHelper provideScopeHelper() {
+        return new ScopeHelperImpl();
     }
 }

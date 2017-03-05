@@ -7,10 +7,10 @@ import java.util.List;
 import javax.inject.Inject;
 
 import hainguyen.impala.application.ApplicationBus;
-import hainguyen.impala.application.ImpalaApplication;
 import hainguyen.impala.application.scheduler.ImpalaScheduler;
 import hainguyen.impala.appsenum.Enums;
 import hainguyen.impala.feature.login.view.LoginView;
+import hainguyen.impala.injection.helper.ScopeHelper;
 import hainguyen.impala.model.api.LoginResponse;
 import hainguyen.impala.network.LoginRepository;
 import hainguyen.impala.util.ContactUtil;
@@ -26,13 +26,15 @@ public class LoginPresenterImpl implements LoginPresenter {
     ContactUtil contactUtil;
     ApplicationBus bus;
     CompositeSubscription loginSubscriptions;
+    ScopeHelper scopeHelper;
 
     @Inject
     public LoginPresenterImpl(LoginRepository service, ContactUtil util,
-                              ApplicationBus applicationBus) {
+                              ApplicationBus applicationBus, ScopeHelper scopeHelper) {
         this.service = service;
         this.contactUtil = util;
         this.bus = applicationBus;
+        this.scopeHelper = scopeHelper;
     }
 
     @Override
@@ -95,7 +97,7 @@ public class LoginPresenterImpl implements LoginPresenter {
 
                     @Override
                     public void onNext(LoginResponse loginResponse) {
-                        ImpalaApplication.getInstance().createUserComponent(loginResponse);
+                        scopeHelper.initUserScope(loginResponse);
                         bus.setLogin(true);
                         loginView.showProgress(false);
                         loginView.goToDetailsPage();

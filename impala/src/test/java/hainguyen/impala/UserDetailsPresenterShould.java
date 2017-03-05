@@ -16,19 +16,26 @@ import static org.mockito.Mockito.when;
 public class UserDetailsPresenterShould {
 
     ApplicationBus bus = mock(ApplicationBus.class);
-    UserDetailsPresenterImpl userDetailsPresenter = new UserDetailsPresenterImpl(bus);
     LoginResponse response = LoginResponse.create(1, "TestName", "", "", "", "");
+    UserDetailsPresenterImpl userDetailsPresenter = new UserDetailsPresenterImpl(bus, response);
     UserDetailsView view = mock(UserDetailsView.class);
 
     @Before
     public void setUp() throws Exception {
-        when(bus.getLoginResponse()).thenReturn(response);
         userDetailsPresenter.setView(view);
     }
 
     @Test
     public void returnLoginResponseIfUserIsLoggedIn() {
+        when(bus.isLogin()).thenReturn(true);
         userDetailsPresenter.getUserDetails();
         Mockito.verify(view).populateUserDetails(response);
+    }
+
+    @Test
+    public void goBackLoginScreenIfUserIsNotLoggedIn() {
+        when(bus.isLogin()).thenReturn(false);
+        userDetailsPresenter.getUserDetails();
+        Mockito.verify(view).backToLoginScreen();
     }
 }

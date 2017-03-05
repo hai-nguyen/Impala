@@ -11,12 +11,13 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import hainguyen.impala.network.LoginRepository;
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.appsenum.Enums;
-import hainguyen.impala.model.api.LoginResponse;
 import hainguyen.impala.feature.login.presenter.LoginPresenterImpl;
 import hainguyen.impala.feature.login.view.LoginView;
+import hainguyen.impala.injection.helper.ScopeHelper;
+import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.network.LoginRepository;
 import hainguyen.impala.util.ContactUtil;
 import hainguyen.impala.utils.SynchronousSchedulers;
 import rx.Observable;
@@ -35,48 +36,58 @@ public class LoginPresenterShould {
     private Throwable errorResponse = new Throwable("NetworkError");
     private ContactUtil contactUtil = mock(ContactUtil.class);
     private ApplicationBus bus = mock(ApplicationBus.class);
+    private ScopeHelper scopeHelper = mock(ScopeHelper.class);
 
-    @Rule public SynchronousSchedulers schedulers = new SynchronousSchedulers();
+    @Rule
+    public SynchronousSchedulers schedulers = new SynchronousSchedulers();
 
-    @Before public void setUp() {
-        loginPresenter = new LoginPresenterImpl(service, contactUtil, bus);
+    @Before
+    public void setUp() {
+        loginPresenter = new LoginPresenterImpl(service, contactUtil, bus, scopeHelper);
         loginPresenter.setView(view);
     }
 
-    @Test public void showEmailInvalidIfEmailIsNotWellFormatted() {
+    @Test
+    public void showEmailInvalidIfEmailIsNotWellFormatted() {
         loginPresenter.validateEmail("12121212");
 
         verify(view).setEmailViewError(Enums.EmailErrorType.INVALID);
     }
 
-    @Test public void showEmailInvalidIfEmailIsEmpty() {
+    @Test
+    public void showEmailInvalidIfEmailIsEmpty() {
         loginPresenter.validateEmail("");
 
         verify(view).setEmailViewError(Enums.EmailErrorType.EMPTY);
     }
 
-    @Test public void returnTrueIfTheEmailIsCorrect() {
+    @Test
+    public void returnTrueIfTheEmailIsCorrect() {
         Assert.assertTrue(loginPresenter.validateEmail("test@email.com"));
     }
 
-    @Test public void showPasswordInvalidMessageIfPasswordIsInvalid() {
+    @Test
+    public void showPasswordInvalidMessageIfPasswordIsInvalid() {
         loginPresenter.validatePassword("123");
 
         verify(view).setPasswordError();
     }
 
-    @Test public void returnTrueIfPasswordIsValid() {
+    @Test
+    public void returnTrueIfPasswordIsValid() {
         Assert.assertTrue(loginPresenter.validatePassword("p@ssW0rd"));
     }
 
-    @Test public void logUserInIfTheCredentialsAreCorrect() {
+    @Test
+    public void logUserInIfTheCredentialsAreCorrect() {
         when(service.login("test@cba.com", "12345")).thenReturn(Observable.just(response));
         loginPresenter.attemptLogin("test@cba.com", "12345");
-
+        when(bus.isLogin()).thenReturn(true);
         verify(view).goToDetailsPage();
     }
 
-    @Test public void populateContactToEmailList() {
+    @Test
+    public void populateContactToEmailList() {
         List<String> contactList = new ArrayList<>(2);
         ContentResolver resolver = new MockContentResolver();
         when(contactUtil.getEmailList(resolver)).thenReturn(Observable.just(contactList));
@@ -86,9 +97,10 @@ public class LoginPresenterShould {
         verify(view).addEmailsToAutoComplete(contactList);
     }
 
-    @Test public void showErrorIfNetworkErrorOccur() {
+    @Test
+    public void showErrorIfNetworkErrorOccur() {
         when(service.login("test@cba.com", "12345")).thenReturn(
-            Observable.<LoginResponse>error(errorResponse));
+                Observable.<LoginResponse>error(errorResponse));
         loginPresenter.attemptLogin("test@cba.com", "12345");
 
         verify(view).showProgress(false);

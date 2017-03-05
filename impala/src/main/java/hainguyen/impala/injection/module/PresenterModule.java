@@ -7,15 +7,18 @@ import dagger.Provides;
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.feature.login.presenter.LoginPresenter;
 import hainguyen.impala.feature.login.presenter.LoginPresenterImpl;
+import hainguyen.impala.injection.helper.ScopeHelper;
 import hainguyen.impala.network.LoginRepository;
 import hainguyen.impala.util.ContactUtil;
 
 @Singleton
-@Module public class PresenterModule {
+@Module
+public class PresenterModule {
 
-    @Provides @Singleton
+    @Provides
+    @Singleton
     LoginPresenter provideLoginPresenter(LoginRepository service,
-                                         ContactUtil util, ApplicationBus bus) {
-        return new LoginPresenterImpl(service, util, bus);
+                                         ContactUtil util, ApplicationBus bus, ScopeHelper scopeHelper) {
+        return new LoginPresenterImpl(service, util, bus, scopeHelper);
     }
 }
