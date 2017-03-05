@@ -1,7 +1,7 @@
 package hainguyen.impala.network;
 
-import hainguyen.impala.model.api.LoginRequest;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.network.model.LoginRequest;
+import hainguyen.impala.network.model.LoginResponse;
 import rx.Observable;
 
 public class LoginRepositoryImpl implements LoginRepository {
@@ -12,8 +12,7 @@ public class LoginRepositoryImpl implements LoginRepository {
         this.loginService = service;
     }
 
-    @Override public Observable<LoginResponse> login(String email, String password) {
-        LoginRequest request = LoginRequest.builder().setEmail(email).setPassword(password).build();
+    @Override public Observable<LoginResponse> login(LoginRequest request) {
         return loginService.login(request);
     }
 }

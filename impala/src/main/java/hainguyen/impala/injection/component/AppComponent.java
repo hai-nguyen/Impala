@@ -8,11 +8,12 @@ import dagger.Component;
 import hainguyen.impala.feature.login.view.LoginActivity;
 import hainguyen.impala.injection.module.ApiModule;
 import hainguyen.impala.injection.module.AppModule;
+import hainguyen.impala.injection.module.DataModule;
 import hainguyen.impala.injection.module.PresenterModule;
 import hainguyen.impala.injection.module.UserModule;
 
 @Singleton
-@Component(modules = {AppModule.class, ApiModule.class, PresenterModule.class})
+@Component(modules = {AppModule.class, ApiModule.class, DataModule.class, PresenterModule.class})
 public interface AppComponent {
 
     UserComponent plus(UserModule userModule);

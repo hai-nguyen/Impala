@@ -5,18 +5,18 @@ import javax.inject.Inject;
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.application.ImpalaApplication;
 import hainguyen.impala.feature.userdetails.view.UserDetailsView;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.model.User;
 
 public class UserDetailsPresenterImpl implements UserDetailsPresenter {
 
     UserDetailsView detailsView;
     ApplicationBus bus;
-    LoginResponse user;
+    User user;
 
     @Inject
-    public UserDetailsPresenterImpl(ApplicationBus applicationBus, LoginResponse loginResponse) {
-        user = loginResponse;
-        bus = applicationBus;
+    public UserDetailsPresenterImpl(ApplicationBus applicationBus, User user) {
+        this.user = user;
+        this.bus = applicationBus;
     }
 
     @Override

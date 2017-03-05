@@ -1,8 +1,9 @@
 package hainguyen.impala.network;
 
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.network.model.LoginRequest;
+import hainguyen.impala.network.model.LoginResponse;
 import rx.Observable;
 
 public interface LoginRepository {
-    Observable<LoginResponse> login(String email, String password);
+    Observable<LoginResponse> login(LoginRequest request);
 }

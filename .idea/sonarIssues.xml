@@ -183,6 +183,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/data/UserProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/feature/base/BaseActivity.java">
           <value>
             <set />
@@ -298,6 +303,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/DataModule.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/module/PresenterModule.java">
           <value>
             <set />
@@ -314,6 +324,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/injection/scope/userScope.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/impala/src/main/java/hainguyen/impala/model/User.java">
           <value>
             <set />
           </value>

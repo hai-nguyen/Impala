@@ -6,26 +6,27 @@ import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenter;
 import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenterImpl;
 import hainguyen.impala.injection.scope.UserScope;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.model.User;
+import hainguyen.impala.network.model.LoginResponse;
 
 @Module
 public class UserModule {
 
-    private LoginResponse user;
+    private User user;
 
-    public UserModule(LoginResponse user) {
+    public UserModule(User user) {
         this.user = user;
     }
 
     @Provides
     @UserScope
-    LoginResponse provideUser() {
+    User provideUser() {
         return user;
     }
 
     @Provides
     @UserScope
-    UserDetailsPresenter provideUserDetailsPresenter(ApplicationBus bus, LoginResponse user) {
+    UserDetailsPresenter provideUserDetailsPresenter(ApplicationBus bus, User user) {
         return new UserDetailsPresenterImpl(bus, user);
     }
 }

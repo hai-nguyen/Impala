@@ -9,9 +9,10 @@ import hainguyen.impala.injection.component.DaggerAppComponent;
 import hainguyen.impala.injection.component.UserComponent;
 import hainguyen.impala.injection.module.ApiModule;
 import hainguyen.impala.injection.module.AppModule;
+import hainguyen.impala.injection.module.DataModule;
 import hainguyen.impala.injection.module.PresenterModule;
 import hainguyen.impala.injection.module.UserModule;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.model.User;
 
 public class ImpalaApplication extends Application {
 
@@ -40,6 +41,7 @@ public class ImpalaApplication extends Application {
         this.appComponent = DaggerAppComponent.builder()
                 .appModule(new AppModule(this))
                 .apiModule(new ApiModule())
+                .dataModule(new DataModule())
                 .presenterModule(new PresenterModule())
                 .build();
     }
@@ -52,7 +54,7 @@ public class ImpalaApplication extends Application {
         return userComponent;
     }
 
-    public UserComponent createUserComponent(LoginResponse user) {
+    public UserComponent createUserComponent(User user) {
         userComponent = appComponent.plus(new UserModule(user));
         return userComponent;
     }

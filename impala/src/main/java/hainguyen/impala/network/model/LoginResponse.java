@@ -1,4 +1,4 @@
-package hainguyen.impala.model.api;
+package hainguyen.impala.network.model;
 
 import com.google.auto.value.AutoValue;
 import com.google.gson.Gson;

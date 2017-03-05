@@ -1,7 +1,7 @@
 package hainguyen.impala.network;
 
-import hainguyen.impala.model.api.LoginRequest;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.network.model.LoginRequest;
+import hainguyen.impala.network.model.LoginResponse;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 import rx.Observable;

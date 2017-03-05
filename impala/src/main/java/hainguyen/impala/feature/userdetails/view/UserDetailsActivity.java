@@ -17,7 +17,7 @@ import hainguyen.impala.application.ImpalaApplication;
 import hainguyen.impala.feature.base.BaseActivity;
 import hainguyen.impala.feature.login.view.LoginActivity;
 import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenter;
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.model.User;
 
 public class UserDetailsActivity extends BaseActivity implements UserDetailsView {
 
@@ -68,18 +68,17 @@ public class UserDetailsActivity extends BaseActivity implements UserDetailsView
     }
 
     @Override
-    public void populateUserDetails(LoginResponse userDetails) {
-        //Application Bus
+    public void populateUserDetails(User userDetails) {
         textViewWelcome.setText(String.format(textViewWelcome.getText().toString(),
-                userDetails.fullName()));
+                userDetails.fullName));
         textViewDOB.setText(String.format(textViewDOB.getText().toString(),
-                userDetails.dateOfBirth()));
+                userDetails.dateOfBirth));
         textViewAddress.setText(String.format(textViewAddress.getText().toString(),
-                userDetails.address()));
+                userDetails.address));
         textViewGender.setText(String.format(textViewGender.getText().toString(),
-                userDetails.gender()));
+                userDetails.gender));
         textViewPhone.setText(String.format(textViewPhone.getText().toString(),
-                userDetails.phone()));
+                userDetails.phone));
     }
 
     @Override

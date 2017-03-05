@@ -1,7 +1,7 @@
 package hainguyen.impala.injection.helper;
 
-import hainguyen.impala.model.api.LoginResponse;
+import hainguyen.impala.model.User;
 
 public interface ScopeHelper {
-    public void initUserScope(LoginResponse response);
+     void initUserScope(User user);
 }

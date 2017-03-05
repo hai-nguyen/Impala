@@ -13,11 +13,11 @@ import java.util.List;
 
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.appsenum.Enums;
+import hainguyen.impala.data.UserProfile;
 import hainguyen.impala.feature.login.presenter.LoginPresenterImpl;
 import hainguyen.impala.feature.login.view.LoginView;
 import hainguyen.impala.injection.helper.ScopeHelper;
-import hainguyen.impala.model.api.LoginResponse;
-import hainguyen.impala.network.LoginRepository;
+import hainguyen.impala.model.User;
 import hainguyen.impala.util.ContactUtil;
 import hainguyen.impala.utils.SynchronousSchedulers;
 import rx.Observable;
@@ -31,8 +31,8 @@ public class LoginPresenterShould {
 
     private LoginPresenterImpl loginPresenter;
     private LoginView view = mock(LoginView.class);
-    private LoginRepository service = mock(LoginRepository.class);
-    private LoginResponse response = mock(LoginResponse.class);
+    private UserProfile userProfile = mock(UserProfile.class);
+    private User response = mock(User.class);
     private Throwable errorResponse = new Throwable("NetworkError");
     private ContactUtil contactUtil = mock(ContactUtil.class);
     private ApplicationBus bus = mock(ApplicationBus.class);
@@ -43,7 +43,7 @@ public class LoginPresenterShould {
 
     @Before
     public void setUp() {
-        loginPresenter = new LoginPresenterImpl(service, contactUtil, bus, scopeHelper);
+        loginPresenter = new LoginPresenterImpl(userProfile, contactUtil, bus, scopeHelper);
         loginPresenter.setView(view);
     }
 
@@ -80,7 +80,7 @@ public class LoginPresenterShould {
 
     @Test
     public void logUserInIfTheCredentialsAreCorrect() {
-        when(service.login("test@cba.com", "12345")).thenReturn(Observable.just(response));
+        when(userProfile.login("test@cba.com", "12345")).thenReturn(Observable.just(response));
         loginPresenter.attemptLogin("test@cba.com", "12345");
         when(bus.isLogin()).thenReturn(true);
         verify(view).goToDetailsPage();
@@ -99,8 +99,8 @@ public class LoginPresenterShould {
 
     @Test
     public void showErrorIfNetworkErrorOccur() {
-        when(service.login("test@cba.com", "12345")).thenReturn(
-                Observable.<LoginResponse>error(errorResponse));
+        when(userProfile.login("test@cba.com", "12345")).thenReturn(
+                Observable.<User>error(errorResponse));
         loginPresenter.attemptLogin("test@cba.com", "12345");
 
         verify(view).showProgress(false);

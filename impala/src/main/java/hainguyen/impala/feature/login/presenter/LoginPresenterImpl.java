@@ -9,10 +9,10 @@ import javax.inject.Inject;
 import hainguyen.impala.application.ApplicationBus;
 import hainguyen.impala.application.scheduler.ImpalaScheduler;
 import hainguyen.impala.appsenum.Enums;
+import hainguyen.impala.data.UserProfile;
 import hainguyen.impala.feature.login.view.LoginView;
 import hainguyen.impala.injection.helper.ScopeHelper;
-import hainguyen.impala.model.api.LoginResponse;
-import hainguyen.impala.network.LoginRepository;
+import hainguyen.impala.model.User;
 import hainguyen.impala.util.ContactUtil;
 import rx.Subscriber;
 import rx.Subscription;
@@ -22,16 +22,16 @@ public class LoginPresenterImpl implements LoginPresenter {
 
     private LoginView loginView;
 
-    LoginRepository service;
+    UserProfile userProfile;
     ContactUtil contactUtil;
     ApplicationBus bus;
     CompositeSubscription loginSubscriptions;
     ScopeHelper scopeHelper;
 
     @Inject
-    public LoginPresenterImpl(LoginRepository service, ContactUtil util,
+    public LoginPresenterImpl(UserProfile userProfile, ContactUtil util,
                               ApplicationBus applicationBus, ScopeHelper scopeHelper) {
-        this.service = service;
+        this.userProfile = userProfile;
         this.contactUtil = util;
         this.bus = applicationBus;
         this.scopeHelper = scopeHelper;
@@ -81,10 +81,10 @@ public class LoginPresenterImpl implements LoginPresenter {
     public void attemptLogin(String email, String password) {
         loginView.clearError();
         loginView.showProgress(true);
-        Subscription loginServiceSubscription = service.login(email, password)
+        Subscription loginServiceSubscription = userProfile.login(email, password)
                 .subscribeOn(ImpalaScheduler.io())
                 .observeOn(ImpalaScheduler.mainThread())
-                .subscribe(new Subscriber<LoginResponse>() {
+                .subscribe(new Subscriber<User>() {
                     @Override
                     public void onCompleted() {
                         //Do nothing
@@ -96,8 +96,8 @@ public class LoginPresenterImpl implements LoginPresenter {
                     }
 
                     @Override
-                    public void onNext(LoginResponse loginResponse) {
-                        scopeHelper.initUserScope(loginResponse);
+                    public void onNext(User user) {
+                        scopeHelper.initUserScope(user);
                         bus.setLogin(true);
                         loginView.showProgress(false);
                         loginView.goToDetailsPage();
