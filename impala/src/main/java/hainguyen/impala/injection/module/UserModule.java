@@ -7,7 +7,6 @@ import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenter;
 import hainguyen.impala.feature.userdetails.presenter.UserDetailsPresenterImpl;
 import hainguyen.impala.injection.scope.UserScope;
 import hainguyen.impala.model.User;
-import hainguyen.impala.network.model.LoginResponse;
 
 @Module
 public class UserModule {
