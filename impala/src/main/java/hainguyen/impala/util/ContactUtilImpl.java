@@ -8,7 +8,7 @@ import rx.Subscriber;
 public class ContactUtilImpl implements ContactUtil {
 
     @Override public Observable<List<String>> getEmailList(final ContentResolver resolver) {
-        return rx.Observable.create(new rx.Observable.OnSubscribe<List<String>>() {
+        return Observable.create(new Observable.OnSubscribe<List<String>>() {
             @Override public void call(Subscriber<? super List<String>> subscriber) {
                 if (!subscriber.isUnsubscribed()) {
                     List<String> names = Utils.getNameEmailDetails(resolver);
