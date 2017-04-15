@@ -1,6 +1,7 @@
 package hainguyen.impala.application;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.squareup.leakcanary.LeakCanary;
 
@@ -16,20 +17,16 @@ import hainguyen.impala.model.User;
 
 public class ImpalaApplication extends Application {
 
-    private static ImpalaApplication instance;
     private AppComponent appComponent;
     private UserComponent userComponent;
 
-    public ImpalaApplication() {
-        instance = this;
-    }
-
     public static ImpalaApplication getInstance() {
-        return instance;
+        return ContextProvider.getContext();
     }
 
     public void onCreate() {
         super.onCreate();
+        ContextProvider.setContext(this);
         if (LeakCanary.isInAnalyzerProcess(this)) {
             return;
         }
@@ -63,4 +60,20 @@ public class ImpalaApplication extends Application {
         this.userComponent = null;
     }
 
+
+    static class ContextProvider {
+        private static ImpalaApplication instance;
+
+        private ContextProvider() {
+            // hide public Context Singleton
+        }
+
+        public static void setContext(Context context) {
+            instance = (ImpalaApplication) context;
+        }
+
+        public static ImpalaApplication getContext() {
+            return instance;
+        }
+    }
 }

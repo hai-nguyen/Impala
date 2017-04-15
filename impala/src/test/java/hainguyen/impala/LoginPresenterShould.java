@@ -38,7 +38,7 @@ public class LoginPresenterShould {
     private ApplicationBus bus = mock(ApplicationBus.class);
     private ScopeHelper scopeHelper = mock(ScopeHelper.class);
     String validEmail = "test@email.com";
-    String validPassword ="12345";
+    String validPassword = "12345";
     @Rule
     public SynchronousSchedulers schedulers = new SynchronousSchedulers();
 

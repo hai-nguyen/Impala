@@ -2,13 +2,13 @@ package hainguyen.impala.application;
 
 public class ApplicationBus {
 
-    private boolean isLogin;
+    private boolean login;
 
     public boolean isLogin() {
-        return isLogin;
+        return login;
     }
 
     public void setLogin(boolean login) {
-        isLogin = login;
+        this.login = login;
     }
 }
