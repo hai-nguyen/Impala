@@ -26,13 +26,13 @@ public class AppModule {
     }
 
     @Provides
-    @javax.inject.Singleton
+    @Singleton
     Context provideApplicationContext() {
         return this.application;
     }
 
     @Provides
-    @javax.inject.Singleton
+    @Singleton
     Gson provideGson() {
         return new Gson();
     }
