@@ -21,8 +21,6 @@ dependencies {
 def qualityConfigDir = "$project.rootDir/qualityconfigs";
 def reportsDir = "$project.buildDir/reports"
 
-check.dependsOn 'checkstyle', 'findbugs', 'pmd'
-
 task checkstyle(type: Checkstyle, group: 'Verification', description: 'Runs code style checks') {
     configFile file("$qualityConfigDir/checkstyle/checkstyle-config.xml")
     source 'src'
