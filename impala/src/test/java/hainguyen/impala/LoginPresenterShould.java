@@ -37,7 +37,8 @@ public class LoginPresenterShould {
     private ContactUtil contactUtil = mock(ContactUtil.class);
     private ApplicationBus bus = mock(ApplicationBus.class);
     private ScopeHelper scopeHelper = mock(ScopeHelper.class);
-
+    String validEmail = "test@email.com";
+    String validPassword ="12345";
     @Rule
     public SynchronousSchedulers schedulers = new SynchronousSchedulers();
 
@@ -63,7 +64,7 @@ public class LoginPresenterShould {
 
     @Test
     public void returnTrueIfTheEmailIsCorrect() {
-        Assert.assertTrue(loginPresenter.validateEmail("test@email.com"));
+        Assert.assertTrue(loginPresenter.validateEmail(validEmail));
     }
 
     @Test
@@ -75,13 +76,13 @@ public class LoginPresenterShould {
 
     @Test
     public void returnTrueIfPasswordIsValid() {
-        Assert.assertTrue(loginPresenter.validatePassword("p@ssW0rd"));
+        Assert.assertTrue(loginPresenter.validatePassword(validPassword));
     }
 
     @Test
     public void logUserInIfTheCredentialsAreCorrect() {
-        when(userProfile.login("test@cba.com", "12345")).thenReturn(Observable.just(response));
-        loginPresenter.attemptLogin("test@cba.com", "12345");
+        when(userProfile.login(validEmail, validPassword)).thenReturn(Observable.just(response));
+        loginPresenter.attemptLogin(validEmail, validPassword);
         when(bus.isLogin()).thenReturn(true);
         verify(view).goToDetailsPage();
     }
@@ -99,9 +100,9 @@ public class LoginPresenterShould {
 
     @Test
     public void showErrorIfNetworkErrorOccur() {
-        when(userProfile.login("test@cba.com", "12345")).thenReturn(
+        when(userProfile.login(validEmail, validPassword)).thenReturn(
                 Observable.<User>error(errorResponse));
-        loginPresenter.attemptLogin("test@cba.com", "12345");
+        loginPresenter.attemptLogin(validEmail, validPassword);
 
         verify(view).showProgress(false);
     }
