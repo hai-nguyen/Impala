@@ -26,7 +26,7 @@ public class BaseTestClass {
 
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1.0");
+        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "5.1");
         cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Android device");
         cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "4000");
         cap.setCapability(MobileCapabilityType.APP, getAppPath(BuildConfig.APP_MODULE_PATH));
